@@ -1,5 +1,9 @@
 a,b,c=20,8,10
 
+def addNums(a,b):
+    summa = a + b
+    return summa
+
 def getLargest(a,b,c):
     if a>b:
         if a>c:
@@ -12,7 +16,7 @@ def getLargest(a,b,c):
         else:
             return c
 
-print(getLargest(a,b,c))
+print(getLargest(-5,6,22/5))
 
 def faktorial(N):
     i=1
